@@ -8,12 +8,10 @@ Extensions to Sails.js/Waterline adapter for MongoDB.
 See https://github.com/balderdashy/sails-mongo for configuration and other documentation.
 
 Extended Features Include
-
-Forked Features List
 Added Support for regex filters.
-> API Syntax = where={"field": {"regex": "expression"}}
+> API Syntax: where={"field": {"regex": "expression"}}
 
-Noted
+Notes
 > **Heads up**
 >
 > `sails-mongo` maps the logical `id` attribute to the required `_id` physical-layer mongo id.

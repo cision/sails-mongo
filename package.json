@@ -1,5 +1,5 @@
 {
-  "name": "sails-mongo",
+  "name": "cision-sails-mongo",
   "version": "0.12.2",
   "description": "Mongo DB adapter for Sails.js",
   "main": "./lib/adapter.js",
@@ -12,35 +12,19 @@
     "mongodb",
     "orm",
     "waterline",
-    "sails"
+    "sails",
+    "cision"
   ],
   "contributors": [
     {
-      "name": "Cody Stoltman",
-      "email": "particlebanana@gmail.com"
-    },
-    {
-      "name": "Zolmeister",
-      "email": "zolikahan@gmail.com"
-    },
-    {
-      "name": "Robin Persson",
-      "email": "rprssn@gmail.com"
-    },
-    {
-      "name": "Ted Kulp",
-      "email": "github@wishy.org"
-    },
-    {
-      "name": "Andy Pham",
-      "email": "andyphamhung@gmail.com"
-    }
+      "name": "Brian Farrell",
+      "email": "nauchrifter@gmail.com"
   ],
   "license": "MIT",
   "readmeFilename": "README.md",
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-mongo.git"
+    "url": "git@github.com:cision/sails-mongo.git"
   },
   "dependencies": {
     "@sailshq/lodash": "^3.10.2",
